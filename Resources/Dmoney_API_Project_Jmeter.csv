@@ -1,0 +1,8 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1656433183900,48,Login Request,200,OK,Thread Group 1-1,text,true,,533,314,1,1,http://dmoney.professionaltrainingbd.com/user/login,45,0,25
+1656433183977,2131,Get User List,200,OK,Thread Group 1-1,text,true,,646628,411,1,1,http://dmoney.professionaltrainingbd.com/user/list,2076,0,0
+1656433186119,18,Create new user,201,Created,Thread Group 1-1,text,true,,594,616,1,1,http://dmoney.professionaltrainingbd.com/user/create,18,0,0
+1656433186138,7,Search User,200,OK,Thread Group 1-1,text,true,,545,421,1,1,http://dmoney.professionaltrainingbd.com/user/search?id=3899,7,0,0
+1656433186145,11,Update User by PUT,200,OK,Thread Group 1-1,text,true,,500,679,1,1,http://dmoney.professionaltrainingbd.com/user/update/3899,11,0,0
+1656433186156,9,Update user by PATCH,200,OK,Thread Group 1-1,text,true,,381,488,1,1,http://dmoney.professionaltrainingbd.com/user/update/3899,9,0,0
+1656433186166,9,Delete User,200,OK,Thread Group 1-1,text,true,,343,440,1,1,http://dmoney.professionaltrainingbd.com/user/delete/3899,9,0,0
